@@ -1,0 +1,37 @@
+Run for getting all meetup categories
+1,Arts & Culture,Arts
+18,Book Clubs,Book Clubs
+2,Career & Business,Business
+3,Cars & Motorcycles,Auto
+4,Community & Environment,Community
+5,Dancing,Dancing
+6,Education & Learning,Education
+8,Fashion & Beauty,Fashion
+9,Fitness,Fitness
+10,Food & Drink,Food & Drink
+11,Games,Games
+13,Movements & Politics,Movements
+14,Health & Wellbeing,Well-being
+15,Hobbies & Crafts,Crafts
+16,Language & Ethnic Identity,Languages
+12,LGBT,LGBT
+17,Lifestyle,Lifestyle
+20,Movies & Film,Films
+21,Music,Music
+22,New Age & Spirituality,Spirituality
+23,Outdoors & Adventure,Outdoors
+24,Paranormal,Paranormal
+25,Parents & Family,Moms & Dads
+26,Pets & Animals,Pets
+27,Photography,Photography
+28,Religion & Beliefs,Beliefs
+29,Sci-Fi & Fantasy,Sci fi
+30,Singles,Singles
+31,Socializing,Social
+32,Sports & Recreation,Sports
+33,Support,Support
+34,Tech,Tech
+36,Writing,Writing
+
+------------------------------------------------------------------------
+# Runtime: 3.869 secs
