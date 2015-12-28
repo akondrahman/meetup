@@ -27,7 +27,16 @@ radius=10
   
 
 
-print "Run for getting all meetup topics"
-apiStrForCat="https://api.meetup.com/topics"
+#print "Run for getting all meetup topics"
+#apiStrForCat="https://api.meetup.com/topics"
+#with  utility.duration():
+#  fetcher.getTopics(apiKey, apiStrForCat)  
+
+print "Run for getting all meetup events for a certain group"
+apiStrForCat="https://api.meetup.com/find/groups"
+country="US"
+zipParam="27601"
+categoryID=34
+categoryName="Tech"
 with  utility.duration():
-  fetcher.getTopics(apiKey, apiStrForCat)  
+  fetcher.getSpecificGroupInfo(categoryID, categoryName, country, zipParam, apiStrForCat, apiKey)  

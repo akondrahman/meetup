@@ -8,12 +8,12 @@ Created on Sun Dec 27 13:14:45 2015
 
 
 from __future__ import unicode_literals
-
+import time 
+import codecs
+import sys
 
 def sampleRun(apiKeyParam, countryParam, radiusParam=10):
-  import time 
-  import codecs
-  import sys
+
 
   UTF8Writer = codecs.getwriter('utf8')
   sys.stdout = UTF8Writer(sys.stdout)  
@@ -75,14 +75,12 @@ def execQuery(queryParam, apiParam):
 
             
 def getCities(apiKeyParam, countryParam):
-  import time 
-  import codecs
-  import sys
+
 
   UTF8Writer = codecs.getwriter('utf8')
   sys.stdout = UTF8Writer(sys.stdout)  
   ## final output holder 
-  resultStr= "," +  "City," + "State," + "Country," + "Zip," + "\n"
+  #resultStr= "," +  "City," + "State," + "Country," + "Zip," + "\n"
   ## set up the cities 
   #cities =[("Bridgeport","CT"),("New Haven","CT"),("Hartford","CT"),("Stamford","CT"),("Waterbury","CT")]
 
@@ -110,9 +108,6 @@ def getCities(apiKeyParam, countryParam):
 
 def getCategories(apiKeyParam, apiStringP):
   #https://api.meetup.com/2/categories?offset=0&sign=True&format=json&photo-host=public&page=20&order=shortname&desc=false      
-  import time 
-  import codecs
-  import sys
 
   UTF8Writer = codecs.getwriter('utf8')
   sys.stdout = UTF8Writer(sys.stdout)  
@@ -139,9 +134,7 @@ def getCategories(apiKeyParam, apiStringP):
 
 def getTopics(apiKeyParam, apiStringP):
   #https://api.meetup.com/topics?&sign=true&photo-host=public&page=20
-  import time 
-  import codecs
-  import sys
+
 
   UTF8Writer = codecs.getwriter('utf8')
   sys.stdout = UTF8Writer(sys.stdout)  
@@ -159,4 +152,43 @@ def getTopics(apiKeyParam, apiStringP):
                     print "," .join(map(unicode, [group['id'], group['name'], group['members']]))
 
   time.sleep(1)     
- 
+  
+  
+  
+def getSpecificGroupInfo(catIDP, catNameP, countryP, zipP, apiStringP, apiKeyP):
+#https://api.meetup.com/find/groups?&sign=true&photo-host=public&zip=27601&country=US&page=20    
+  import sys
+  reload(sys)
+  sys.setdefaultencoding("utf-8")
+
+  UTF8Writer = codecs.getwriter('utf8')
+  sys.stdout = UTF8Writer(sys.stdout)  
+  per_page = 200
+  results_we_got = per_page
+  offset = 0
+  resCounter =  1
+  while (results_we_got == per_page):
+                response=execQuery({"sign":"true", "photo-host":"public",  
+                                      "zip":zipP, "key":apiKeyP, "page":per_page, "offset":offset }, apiStringP)
+                ### response has the results for for the corresponding query 
+                time.sleep(1)
+                offset += 1
+                results_we_got = len(response)
+                
+                for cnt in xrange(per_page):
+                  #print "results inside stuff ... ", response[cnt]
+                  #print "debugging stuff: response length{}, current count ={}".format(len(response), cnt)
+                  if cnt < len(response):
+                    if 'category' in response[cnt]: 
+                      group_category_name = response[cnt]['category']['name']
+                      group_category_id   = response[cnt]['category']['id']
+                      if ((group_category_id==catIDP) and (group_category_name==catNameP)):
+                        content = map(unicode, [resCounter, cnt, response[cnt]['id'], response[cnt]['name'], 
+                           response[cnt]['members'], response[cnt]['urlname']])
+                        #print "inside content: ", content   
+                        decoded_content = [x.decode('utf-8').strip() for x in content]                  
+                      
+                        print "\t" .join(decoded_content)                  
+                        resCounter += 1   
+
+  time.sleep(1)      
