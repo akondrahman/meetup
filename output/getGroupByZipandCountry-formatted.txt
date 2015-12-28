@@ -1,0 +1,195 @@
+>>> runfile('C:/ashfaque_stuff/meetup_work/main.py', wdir='C:/ashfaque_stuff/meetup_work')
+Reloaded modules: fetcher, utility
+Run for getting all meetup events for a certain group
+GroupID	GroupName	GroupMemberCount	GroupURL
+1	6	11661182	Triangle TechBreakfast	1484	Triangle-TechBreakfast	public
+2	19	2235051	Triangle .NET User Group	1615	TRINUG	public
+3	36	5538402	Girl Develop It RDU	1654	Girl-Develop-It-RDU	public
+4	37	2902562	Agile Leadership Network - Raleigh/Durham Area Chapter	769	RTP-ALN-Chapter	public_limited
+5	38	18407020	exploreUX - Raleigh edition	264	exploreUX-raleigh	public
+6	42	134061	The Triangle Ruby Brigade (Triangle.rb)	1313	raleighrb	public
+7	66	3040382	RTP Nerd Herd	930	Raleigh-Nerd-Herd	public
+8	69	8332212	Triangle Code for America	693	Triangle-Code-for-America	public
+9	74	4319222	Triangle SQL Server User Group	478	tripass	public
+10	76	1493742	Triangle Python Users Group (formerly TriZPUG)	717	tripython	public
+11	92	8855722	Research Triangle Analysts	798	Research-Triangle-Analysts	public
+12	94	1546066	Triangle JavaScript	1688	Triangle-JavaScript	public
+13	97	18945718	Ladies that UX Durham	130	Ladies-that-UX-Durham	public
+14	113	1712908	Splat Space - Durham's Hackerspace	785	splatspace	public
+15	122	18640838	The Iron Yard - Durham	489	The-Iron-Yard-Durham	public
+16	135	2892722	Refresh the Triangle	828	refreshthetriangle	public
+17	137	19220290	Triangle Open Source Open Mic	59	Triangle-Open-Source-Open-Mic	public
+18	138	18125702	Triangle |> Elixir	82	Triangle-Elixir	public
+19	139	18654425	Analytics.Club Raleigh	304	ac-rdu	public
+20	156	19005558	Triangle Cloud Networking Meetup	130	RTP-Cloud-Networking-Meetup	public
+21	174	19138245	Startup Climbing Raleigh	149	Startup-Climbing-Raleigh	public
+22	183	1133872	NCTech4Good	846	NCTech4Good	public
+23	191	19047732	Raleigh Building Agile Clouds with OpenStack	70	Raleigh-Triange-Building-Agile-Clouds-with-OpenStack	public
+24	196	458848	Agile RTP (ARTp)	1677	agileRTP	public
+25	1	1555085	TriDroid - NC Triangle Android Meetup	1043	TriDroid	public
+26	21	18709804	Triangle WebRTC	97	Triangle-WebRTC	public
+27	36	14768522	Raleigh Red Hat User Group	197	Raleigh-Red-Hat-User-Group	public
+28	53	1808037	Triangle Macintosh Meetup	132	TMUGNC	public
+29	65	9891292	North Raleigh Pre Startup	176	northraleighprestartup	public
+30	74	17358322	Triangle Ember	135	Triangle-Ember	public
+31	103	19150879	Downtown Raleigh Lunchtime Programming Bookclub (Dev Lunch)	32	Downtown-Raleigh-Lunchtime-Programming-Bookclub-DRLP	public
+32	111	18960184	The Iron Yard Alumni Presentation Interactive	59	The-Iron-Yard-Alumni-Presentation-Interactive	public
+33	115	14043682	RTP Virtual Reality	415	RTP-Virtual-Reality	public
+34	128	5924252	Agile Lunches	467	Agile-Lunches	public
+35	134	10230062	RTP Security + Beers	141	RTP-Security-Beers	public
+36	163	1759300	Triangle Cocoa - Mac and iOS Development Meetups	605	nscoderrtp	public
+37	169	14807052	Triangle Hacker Hours	446	trianglehackerhours	public
+38	186	18310565	Scaling Agile Triangle	96	Scaling-Agile-Triangle	public
+39	187	229107	TrianglePHP	640	trianglephp	public
+40	194	18264726	Triangle Java Users Group (TriJUG)	592	Triangle-Java-Users-Group	public
+41	9	18935057	Statistical Learning Group	149	slgncsu	public
+42	14	16126452	Hi-Tech Women	314	Hi-Tech-Women	public
+43	19	2331301	Triangle DevOps	1297	Triangle-DevOps	public
+44	25	163791	The Raleigh-Durham Web Design Group	1534	WebDesign2-0	public
+45	37	12478202	Triangle Julia Users	107	Triangle-Julia-Users	public
+46	40	18381130	Triangle Scala	172	triangle-scala	public
+47	53	18470682	F1FPV	125	F1FPV-Raleigh	public
+48	62	12420412	The Research Triangle BioCoders	150	The-Research-Triangle-BioCoders	public
+49	81	16363952	Triangle WordPress	325	TriangleWordPress	public
+50	87	2578572	GeekMeet - Raleigh/Durham	303	GeekMeet-Raleigh-Durham	public
+51	88	16193752	Tech Talent South - Raleigh	403	Tech-Talent-South-Raleigh	public
+52	109	16184142	ETHAN - Engineers That Have A Network (RDU)	260	ETHAN-Engineers-That-Have-A-Network-RDU	public
+53	159	18480362	Triangle Performance Engineering and Capacity Planning	218	Triangle-Computer-Measurement-Group-Meetup	public
+54	163	3650952	Triangle UXPA Book Club	252	triupa-book-club	public
+55	168	6289642	Graph Database - Durham	230	Graph-Database-Durham	public
+56	173	4838632	FileMaker Users & Developers of Raleigh-Durham-Chapel Hill	51	FileMaker-Users-Developers-of-Raleigh-Durham-Chapel-Hill	public
+57	198	18249160	Raleigh Mobile .NET Developers Group	80	RaleighMobileDevelopers	public
+58	43	7892962	Triangle Microsoft Office Users Group (TriMOUG)	155	Triangle-Microsoft-Office-Users-Group-TriMOUG	public
+59	45	18537255	TRI REST	196	TRI-REST	public
+60	52	7540692	Triangle Bitcoin Meetup	253	Triangle-Bitcoin-Meetup	public
+61	64	11636312	Research Triangle PowerShell Users Group	132	Research-Triangle-PowerShell-Users-Group	public
+62	73	17178122	RDU Area MicroStrategy User Group	63	RDU-Area-MicroStrategy-User-Group	public
+63	93	18912067	Blacks In Tech (BIT-RDU) Durham/Raleigh Meetup	155	Blacks-In-Tech-BIT-RDU-Durham-Raleigh-Meetup	public
+64	119	12002842	Raleigh OpenShift Meetup	151	Raleigh-Openshift-Meetup	public
+65	134	7382782	Dev Droid - Triangle Android Developers	267	DevDroid	public
+66	29	7916282	RTP  National Society of Black Engineers	10	Research-Triangle-Professionals-NSBE-Chapter	public
+67	64	1226388	Triangle Drupal Users' Group	350	triDUG	public
+68	65	18845795	TriSalt	35	TriSalt	public
+69	79	18742985	Triangle WooCommerce Meetup	28	Triangle-WooCommerce-Meetup	public
+70	82	19234960	MS-DOS LIKE A BOSS (RTP)	16	MS-DOS-LIKE-A-BOSS-RTP	public
+71	83	11197652	Google Developer Group Triangle	148	Google-Developer-Group-Triangle	public
+72	135	18455841	Raleigh Independent Game Developers	153	Raleigh-Independent-Game-Developers	public
+73	168	15926072	TDWI Carolinas Chapter	95	TDWI-Carolinas-Chapter	public
+74	3	18502955	Triangle Product Management Group - ProductCampRTP	111	RTP-Product-Management-Group-ProductCampRTP	public
+75	8	2257701	RTP Salesforce Developer Group	260	RTP-Force-com-Developer-Group	public
+76	20	7185652	Triangle Hadoop Users Group	756	TriHUG	public
+77	23	5977282	Women in Cybersecurity - Information Security-RaleighDurham	68	womenincybersecurity-raleighdurham	public
+78	35	1495149	RTP AI / Machine Learning / Semantic Web / BigData Meetup	578	RTPBigData	public
+79	56	15260732	RTP EM7 Users Meetup	18	RTP-EM7-Users-Meetup	public
+80	62	13827012	Big Data Developers in Raleigh	757	Big-Data-Developers-in-Raleigh	public
+81	63	13802012	Triangle Cloud Foundry Meetup	166	Triangle-Cloud-Foundry-Meetup	public
+82	64	19232342	Raleigh Unreal Engine Developers	27	Raleigh-Unreal-Engine-Developers	public
+83	65	13657492	Docker Raleigh	520	Docker-Raleigh	public
+84	66	19235087	AppDynamics Raleigh User Group	7	AppDynamics-Raleigh-User-Group	public
+85	67	19220477	Carolina Analytics Meetup	58	Carolina-Analytics-Meetup	public
+86	74	12839802	Raleigh Oracle Meetup	108	Raleigh-Oracle-Meetup	public
+87	80	19049606	Raleigh DevOps  Networking Meetup	50	Raleigh-DevOps-Networking-Meetup	public
+88	85	10942032	Triangle Titanium Developers	13	Triangle-Titanium-Developers	public
+89	87	18919059	Triangle Jenkins Area Meetup	50	Raleigh-Jenkins-Area-Meetup	public
+90	93	1257174	Resolvit IT Professionals Networking Group	383	itpro-69	public
+91	97	1748546	GeoDev Meetup Group - Carolinas	76	DevMeetupCarolinas	public
+92	100	18758171	Raleigh Software Development Meetup	181	meetup-group-TnYUXwVr	public
+93	105	18717260	The Iron Yard - Raleigh	101	The-Iron-Yard-Raleigh	public
+94	107	18706720	CTO School - Raleigh	19	CTO-School-Raleigh	public_limited
+95	114	18641308	Triangle Sumo Logic Users Group	44	Sumo-Logic-Triangle	public
+96	115	1264914	TISQA	536	softwaredev-117	public
+97	123	18571160	Raleigh/Durham Inventors Group Meetup	38	Raleigh-Inventors-Group-Meetup	public
+98	124	6943762	Designer/Dev Nomadders	100	Happy-Nomadders	public
+99	126	18552321	IBM Security and Storage Briefing	8	Raleigh-IBM-Executive-Briefing-Storage-and-Security	public_limited
+100	127	18552055	Raleigh Open Source Cloud	358	raleighopensourcecloud	public
+101	129	6571782	Triangle Node.js	534	triangle-nodejs	public
+102	133	18505204	a11yRTP	53	a11yRTP	public
+103	136	4976852	Triangle Area Eucalyptus Cloud User Group	37	Triangle-Area-Eucalyptus-Cloud-User-Group	public
+104	139	18886077	Triangle Polymer Group	12	Triangle-Polymer-Group	public
+105	145	4073312	Raleigh Tech Startups	443	Raleigh-Tech-Startup	public
+106	146	18217055	Raleigh Cassandra Users	86	Raleigh-Cassandra-Users	public
+107	155	16760422	PyLadies RDU	185	pyladies-rdu	public_limited
+108	156	16244352	Raleigh Cloud Computing Meetup	121	Raleigh-Cloud-Computing-Meetup	public
+109	173	18670813	Raleigh Data Architecture Meetup.	50	Raleigh-Data-Architecture-Meetup	public
+110	192	14777952	Raleigh Puppet User Group	103	Raleigh-Puppet-User-Group	public
+111	0	1698968	RTP Apache Solr/Lucene Meetup	95	RTP-Apache-Solr-Lucene-Meetup	public
+112	7	18456666	Project Tools User Group	83	Raleigh-Durham-Local-Chapter-of-MPUG	public
+113	11	4245402	RDU - Groovy Users Group (Grails, Griffon, Gradle, GORM)	51	RDU-Groovy-User-Group	public
+114	13	15347812	Big Data Analytics for Cyber Security	380	RTP-Cyber-Security	public
+115	14	2609212	Triangle Indie Game Developers	229	Indie-Game-Devs	public
+116	18	12154512	Meteor Raleigh Durham	226	Meteor-Raleigh-Durham	public
+117	33	17037262	Raleigh Downtown Technology Meetup	363	Raleigh-Downtown-Technology-Meetup	public
+118	38	2686432	The TechIN	59	thetechin	public
+119	39	14336842	RTP OpenDaylight User Group	69	RTPOpenDaylight	public
+120	40	14355372	NC RIoT - NC's Regional Internet of Things	1230	NC-RIoT-Regional-Internet-of-Things	public
+121	48	12048272	Thirsty.rb RDU	247	Thirsty-rb-RDU	public
+122	53	18748983	aitp RTP	19	aitp-RTP	public
+123	59	18643723	Dropsource Dev Meetup	21	Dropsource-Dev-Meetup	public
+124	64	18568080	IBM RTP Watson Cognitive Meetup	99	IBM-RTP-Watson-Cognitive-Meetup	public
+125	72	3154592	Mobile App/Game developers meetup	90	triangle-corona-sdk-meetup	public
+126	81	10261762	DoneJS Raleigh Durham	45	DoneJS-raleigh-durham	public
+127	86	1121002	Raleigh Internet Marketing Meetup (Business Owners)	421	Raleigh-Internet-Marketing-Meetup	public
+128	104	3793152	Crop	572	designcrop	public
+129	123	13269222	RTP Angular.js	707	RTP-AngularJs	public
+130	128	11021542	RTP Adobe AEM / CQ / Sling / JCR User Group	116	RTP-Adobe-AEM-CQ-Sling-JCR-User-Group	public
+131	130	9554602	RTP Home Automation Enthusiasts	36	RTP-Home-Automation-Enthusiasts	public
+132	136	4991532	Veredus RTP Technology Social	371	VeredusTechnologySocial	public_limited
+133	140	1487178	OWASP Triangle Chapter	231	owasptriangle	public
+134	156	18870731	RTP - Enterprise Mobility Management	10	RTP-Enterprise-Mobility-Management	public
+135	168	18560621	Kx community RTP MeetUp	13	kx-community-RTP-MeetUp	public_limited
+136	192	8399392	Triangle SharePoint User Group	302	TRISPUG	public
+137	199	1427908	Raleigh WordPress Meetup Group	825	Raleigh-WordPress-Meetup-Group	members
+138	13	18626274	IBM Carolina's z Systems Meetup	45	IBM-Carolinas-z-Systems-Meetup	public
+139	39	18262739	Triangle Azure User Group - TriAUG	153	Triangle-Azure-User-Group-TriAUG	public
+140	61	18256828	Papers We Love RTP	24	Papers-We-Love-RTP	public
+141	63	841103	Triangle Game Development Meetup	189	gamedev-176	public
+142	67	13819572	Triangle AWS (Amazon Web Services) Meetup	178	Triangle-AWS-Amazon-Web-Services-Meetup	public
+143	78	18304668	RTP Cumulus Linux & Open Networking Meetup	143	RTP-Cumulus-Linux-Open-Networking-Meetup	public
+144	80	4042992	Mobile App Monetization	221	Mobile-App-Monetization	public
+145	82	16193132	Triangle Technology Enthusiasts	130	TriangleTechnologyEnthusiasts	public
+146	102	18498599	Raleigh Startup Initiative	40	RaleighStartup	public_limited
+147	123	10354142	Triangle Postgres Users Group	72	Triangle-Postgres-Users-Group	public
+148	142	9387042	TriAngular.js	495	Triangle-Angular-js	public
+149	143	18578047	ProcessMaker RDU	5	ProcessMaker-RDU	public
+150	145	1605047	Lean Startup Circle RTP	599	lsc-rtp	public
+151	160	18519058	RTP Startup Entrepreneurs Meetup	141	RTP-Startup-Entrepreneurs-Meetup	public
+152	165	3107482	Open Source Data Consortium	100	OSDCRTP	public
+153	2	10884762	RDU Tech Beers	82	RDU-Tech-Beers	public
+154	8	1690553	Agile PM RTP	160	AgilePMRTP	public
+155	10	6706102	Triangle OpenStack Meetup	849	Triangle-OpenStack-Meetup	public
+156	11	6443722	Triangle Area ColdFusion Users Group	100	Triangle-Area-ColdFusion-Users-Group	public
+157	12	18447320	RTP IIBA - International Institute of Business Analysis	103	RTP-IIBA	public
+158	13	18444234	AIIM:Workflow, Big Data, Information Security and Governance	121	AIIM-Workflow-Big-Data-analytics-Governance-Meetup	public
+159	14	16226272	Triangle Bluemix Meetup	376	rtpbluemix	public
+160	23	18698480	RTP Internet Society Chapter Meetup	41	RTP-Internet-Society-Chapter-Meetup	public
+161	28	1597259	RTP New Tech	618	RTP-New-Tech	public
+162	38	10416972	The Triangle Futurists	73	The-Triangle-Futurists	public
+163	46	18653951	Triangle Apache Spark Meetup	192	Triangle-Apache-Spark-Meetup	public
+164	55	795899	The RTP Search Engine Optimization Meetup Group	187	rtpSEO	public
+165	62	13060542	Triangle UXPA Beverage User Interface	273	Triangle-UXPA-Social-Meetup	public
+166	72	18317696	Triangle Enterprise Architecture	21	Triangle-Enterprise-Architecture	public
+167	79	14574322	Intent: A UI/UX design meetup for the Triangle	543	intent-design	public
+168	80	2600762	Triangle MongoDB User Group	346	MongoRaleigh	public
+169	84	12831142	Stacked! Building Better Developers	624	Stacked	public
+170	94	1759670	The Triangle Clojure Users Group	295	TriClojure	public
+171	106	7093252	Triangle Testing and Automation User Group	390	TriTAUG	public
+172	112	18236248	Ansible Durham	298	Ansible-Durham	public
+173	126	10510632	Durham LUG	212	LinuxUserGroup	public
+174	136	11699412	Triangle MySQL Meetup	168	triangle_mysql	public
+175	155	18187352	Bull City Coworking Community	35	Bull-City-Coworking-Community	public
+176	174	1746085	WordPress Chapel Hill	199	WordPress-Chapel-Hill	public
+177	182	3361232	Triangle SharePoint Meetup Group	32	triangle-sharepoint-meetup	public
+178	16	19013985	Chapel Hill / Durham PHP User Group	49	Chapel-Hill-Durham-PHP-User-Group	public
+179	17	19075832	Triangle Google User Group	25	googlers	public
+180	26	1691972	Raleigh-Durham-Chapel Hill R Users Group	620	Triangle-useR	public
+181	27	1664823	RTP Hackers & Founders / Open Coffee Club	392	RTP-Hackers-Founders	public
+182	51	18342691	Rocky Mount Web Development Meetup	17	Rocky-Mount-Web-Development-Meetup	public
+183	55	5229062	Goldsboro Software Developers	33	Goldsboro-Software-Developers	public
+Group Dict info: 183
+
+------------------------------------------------------------------------
+# Runtime: 40.148 secs
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+>>> 

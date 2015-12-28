@@ -32,11 +32,27 @@ radius=10
 #with  utility.duration():
 #  fetcher.getTopics(apiKey, apiStrForCat)  
 
+###################### Real work ! ########################
 print "Run for getting all meetup events for a certain group"
 apiStrForCat="https://api.meetup.com/find/groups"
 country="US"
 zipParam="27601"
 categoryID=34
 categoryName="Tech"
+## for getting group info. 
 with  utility.duration():
-  fetcher.getSpecificGroupInfo(categoryID, categoryName, country, zipParam, apiStrForCat, apiKey)  
+  groupDict = fetcher.getSpecificGroupInfo(categoryID, categoryName, country, zipParam, apiStrForCat, apiKey) 
+  print "Group Dict info:", len(groupDict)
+## for getting event info. based on groupID 
+apiStrForEvent="https://api.meetup.com/2/events"  
+with  utility.duration():
+  for key_, val_ in groupDict.items():
+    #print "val_", val_  
+    groupIDOfInterest = key_
+    groupURLNameOfInterest = val_[-1]    
+    #print "Calling method with: {}, {}".format(groupIDOfInterest, groupURLNameOfInterest)
+    eventDict = fetcher.getEventBasedOnGroup(groupIDOfInterest, 
+                                             groupURLNameOfInterest, 
+                                             apiStrForEvent, 
+                                             apiKey )
+    print "Detailed event dict info: ", len(eventDict)          
