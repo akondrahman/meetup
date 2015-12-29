@@ -44,15 +44,25 @@ with  utility.duration():
   groupDict = fetcher.getSpecificGroupInfo(categoryID, categoryName, country, zipParam, apiStrForCat, apiKey) 
   print "Group Dict info:", len(groupDict)
 ## for getting event info. based on groupID 
-apiStrForEvent="https://api.meetup.com/2/events"  
+apiStrForEvent ="https://api.meetup.com/2/events"  
+apiStrForMember="https://api.meetup.com/2/members"
 with  utility.duration():
   for key_, val_ in groupDict.items():
     #print "val_", val_  
     groupIDOfInterest = key_
     groupURLNameOfInterest = val_[-1]    
     #print "Calling method with: {}, {}".format(groupIDOfInterest, groupURLNameOfInterest)
+    
+    # let's get member info from each group: groupIDOfInterest, groupURLNameOfInterest     
+    memberDict = fetcher.getMemberDetailsBasedOnGroup(groupIDOfInterest, groupURLNameOfInterest, apiStrForMember, apiKey) 
+    print "Detailed member dict info: ", len(memberDict)          
+    if (len(memberDict)>0): 
+      print "Dumping member details in file ... ... ...", utility.dumpEventsinFile(memberDict, "MemberDetails", "output")     
+    ## lets get event details for thr group 
     eventDict = fetcher.getEventBasedOnGroup(groupIDOfInterest, 
                                              groupURLNameOfInterest, 
                                              apiStrForEvent, 
                                              apiKey )
-    print "Detailed event dict info: ", len(eventDict)          
+    print "Detailed event dict info: ", len(eventDict)      
+    if (len(eventDict)>0): 
+      print "Dumping event details in file ... ... ...", utility.dumpEventsinFile(eventDict, "EventDetails", "output", "\t")     

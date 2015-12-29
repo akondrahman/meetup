@@ -230,29 +230,120 @@ def getEventBasedOnGroup(groupIDP, groupURLNameOfInterestP, apiStringP, apiKeyP)
                 
                 for evtItem in response['results']:
                     if 'duration' in evtItem:
-                      content = map(unicode, [
-                                            evtItem['id'], evtItem['name'], 
-                                            evtItem['status'], evtItem['visibility'], 
-                                            evtItem['event_url'], evtItem['duration'], 
-                                            groupIDP , resCounter , groupURLNameOfInterestP
-                                           ])
-                    
+                      durString= evtItem['duration'] 
                     else:
-                      content = map(unicode, [
+                      durString="00000000"  
+                    if 'rsvp_limit' in evtItem:
+                      rsvpLimitString= evtItem['rsvp_limit'] 
+                    else:
+                      rsvpLimitString= "Unknown"  
+                    if 'yes_rsvp_count' in evtItem:
+                      yesrsvpCountString= evtItem['yes_rsvp_count'] 
+                    else:
+                      yesrsvpCountString= "Unknown"  
+                    if 'venue' in evtItem:
+                      addrString = evtItem['venue']['address_1'] 
+                      cityString = evtItem['venue']['city']
+                    else:
+                      addrString = "UNKNOWN" 
+                      cityString = "UNKNOWN"
+                    if 'description' in evtItem:
+                      descString = evtItem['description']
+                    else:
+                      descString = "Not Given"
+                    content = map(unicode, [
                                             evtItem['id'], evtItem['name'], 
                                             evtItem['status'], evtItem['visibility'], 
-                                            evtItem['event_url'], "0000000", 
-                                            groupIDP , resCounter, groupURLNameOfInterestP
-                                         ])
+                                            evtItem['event_url'], durString,
+                                            descString , addrString, 
+                                            cityString , rsvpLimitString, yesrsvpCountString,       
+                                            groupIDP ,  groupURLNameOfInterestP
+                                           ]
+                                 )
+                    
                     decoded_content = [x.decode('utf-8').strip() for x in content]                  
-                    print "\t" .join(decoded_content)
+                    #print "\t" .join(decoded_content)
                     dictToRet[decoded_content[0]] = [
                                                      decoded_content[1], decoded_content[2], 
                                                      decoded_content[3], decoded_content[4], 
                                                      decoded_content[5], decoded_content[6], 
-                                                     decoded_content[8]
+                                                     decoded_content[7], decoded_content[8], 
+                                                     decoded_content[9], decoded_content[10], 
+                                                     decoded_content[11], decoded_content[12]
                                                     ]
                     resCounter += 1   
 
   time.sleep(1)  
   return dictToRet     
+  
+  
+def getMemberDetailsBasedOnGroup(groupIDP, groupURLNameOfInterestP, apiStringP, apiKeyP):
+  #https://api.meetup.com/2/members?&sign=true&photo-host=public&group_urlname=TRINUG&group_id=2235051&page=20
+  import sys
+  reload(sys)
+  sys.setdefaultencoding("utf-8")
+
+  UTF8Writer = codecs.getwriter('utf8')
+  sys.stdout = UTF8Writer(sys.stdout)  
+  per_page = 200
+  results_we_got = per_page
+  offset = 0
+  resCounter =  1
+  ## the final dictionary 
+  dictToRet={}
+  #headerList=["EventID", "EventName", "EventStatus", "Visibility", "EventURL", "EventDuration"]
+  #print "\t" .join(headerList)
+  while (results_we_got == per_page):
+                response=execQuery({"sign":"true", "photo-host":"public",  
+                                      "group_urlname":groupURLNameOfInterestP, "group_id": groupIDP,  
+                                      "key":apiKeyP, "page":per_page, "offset":offset }, apiStringP)
+                ### response has the results for for the corresponding query 
+                time.sleep(1)
+                offset += 1
+                results_we_got = response['meta']['count']
+                
+                for evtItem in response['results']:
+                    if 'country' in evtItem:
+                      countryString= evtItem['country'] 
+                    else:
+                      countryString="Unknown"  
+                    if 'city' in evtItem:
+                      cityString= evtItem['city'] 
+                    else:
+                      cityString= "Unknown"  
+                    if 'state' in evtItem:
+                      stateString= evtItem['state'] 
+                    else:
+                      stateString= "Unknown"  
+                    if 'id' in evtItem:
+                      IDString = evtItem['id']
+                    else:
+                      IDString = "Unknown"
+                    if 'name' in evtItem:
+                      nameString = evtItem['name']
+                    else:
+                      nameString = "Not Given"
+                    if 'status' in evtItem:
+                      statusString = evtItem['status']
+                    else:
+                      statusString = "Not Given"
+                    content = map(unicode, [
+                                            IDString, nameString, 
+                                            statusString, cityString, 
+                                            stateString, countryString, 
+                                            groupIDP ,  groupURLNameOfInterestP
+                                           ]
+                                 )
+                    
+                    decoded_content = [x.decode('utf-8').strip() for x in content]                  
+                    #print "\t" .join(decoded_content)
+                    dictToRet[decoded_content[0]] = [
+                                                     decoded_content[1], decoded_content[2], 
+                                                     decoded_content[3], decoded_content[4], 
+                                                     decoded_content[5], decoded_content[6], 
+                                                     decoded_content[7]
+                                                    ]
+                    resCounter += 1   
+
+  time.sleep(1)  
+  return dictToRet       
