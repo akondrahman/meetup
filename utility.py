@@ -17,7 +17,7 @@ def duration():
   print("\n" + "-" * 72)
   print("# Runtime: %.3f secs" % (t2-t1)) 
   
-def dumpEventsinFile(eventDictParam, fileParam, dirParam, delimiter=","):
+def dumpDictinFile(eventDictParam, fileParam, dirParam, delimiter=","):
   import os   
   completeStrToWrite=""
   if not os.path.exists(dirParam):

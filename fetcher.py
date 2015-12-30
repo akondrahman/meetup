@@ -346,4 +346,123 @@ def getMemberDetailsBasedOnGroup(groupIDP, groupURLNameOfInterestP, apiStringP, 
                     resCounter += 1   
 
   time.sleep(1)  
-  return dictToRet       
+  return dictToRet
+def getEventRating(eventID, apiStrForEvent, apiKey ):
+  # https://api.meetup.com/2/event_ratings?&sign=true&photo-host=public&event_id=1300571&page=20  
+  import sys
+  reload(sys)
+  sys.setdefaultencoding("utf-8")
+
+  UTF8Writer = codecs.getwriter('utf8')
+  sys.stdout = UTF8Writer(sys.stdout)  
+  per_page = 200
+  results_we_got = per_page
+  offset = 0
+  resCounter =  1
+  ## the final dictionary 
+  dictToRet={}
+  while (results_we_got == per_page):
+                response=execQuery({"sign":"true", "photo-host":"public",  
+                                    "event_id": eventID,  
+                                    "key":apiKey, "page":per_page, "offset":offset }, apiStrForEvent)
+                ### response has the results for for the corresponding query 
+                time.sleep(1)
+                offset += 1
+                results_we_got = response['meta']['count']
+                
+                for evtItem in response['results']:
+                    if 'event_id' in evtItem:
+                      eventIDString= evtItem['event_id'] 
+                    else:
+                      eventIDString ="Unknown"  
+                    if 'member_id' in evtItem:
+                      memIDString= evtItem['member_id'] 
+                    else:
+                      memIDString= "Unknown"  
+                    if 'member_name' in evtItem:
+                      memNameString= evtItem['member_name'] 
+                    else:
+                      memNameString= "Unknown"  
+                    if 'rating' in evtItem:
+                      ratingString = evtItem['rating']
+                    else:
+                      ratingString = "Unknown"
+                    content = map(unicode, [
+                                            eventIDString , memIDString, 
+                                            memNameString, ratingString 
+                                           ]
+                                 )
+                    
+                    decoded_content = [x.decode('utf-8').strip() for x in content]                  
+                    #print "\t" .join(decoded_content)
+                    dictToRet[decoded_content[0]] = [
+                                                     decoded_content[1], decoded_content[2], 
+                                                     decoded_content[3] 
+                                                    ]
+                    resCounter += 1   
+
+  time.sleep(1)  
+  return dictToRet     
+
+
+
+
+def getEventComment(groupIDP, eventIDP, apiStrForEventP, apiKeyP ):
+  #https://api.meetup.com/2/event_comments?&sign=true&photo-host=public&group_id=18125702&event_id=227594117&page=20  
+  import sys
+  reload(sys)
+  sys.setdefaultencoding("utf-8")
+
+  UTF8Writer = codecs.getwriter('utf8')
+  sys.stdout = UTF8Writer(sys.stdout)  
+  per_page = 200
+  results_we_got = per_page
+  offset = 0
+  resCounter =  1
+  ## the final dictionary 
+  dictToRet={}
+  while (results_we_got == per_page):
+                response=execQuery({"sign":"true", "photo-host":"public",  
+                                    "event_id": eventIDP, "group_id": groupIDP,   
+                                    "key":apiKeyP, "page":per_page, "offset":offset }, apiStrForEventP)
+                ### response has the results for for the corresponding query 
+                time.sleep(1)
+                offset += 1
+                if 'meta' in response:
+                  results_we_got = response['meta']['count']
+                else: 
+                  results_we_got =  0   
+                if 'results' in response:  
+                  for evtItem in response['results']:
+                    if 'comment' in evtItem:
+                      commentString= evtItem['comment'] 
+                    else:
+                      commentString ="Unknown"  
+                    if 'event_comment_id' in evtItem:
+                      eventCommentIDString= evtItem['event_comment_id'] 
+                    else:
+                      eventCommentIDString= "Unknown"  
+                    if 'like_count' in evtItem:
+                      likeCountString= evtItem['like_count'] 
+                    else:
+                      likeCountString = "Unknown"  
+                    if 'member_id' in evtItem:
+                      memberIDString = evtItem['member_id']
+                    else:
+                      memberIDString = "Unknown"
+                    content = map(unicode, [
+                                            eventCommentIDString , commentString, 
+                                            likeCountString, memberIDString 
+                                           ]
+                                 )
+                    
+                    decoded_content = [x.decode('utf-8').strip() for x in content]                  
+                    #print "\t" .join(decoded_content)
+                    dictToRet[decoded_content[0]] = [
+                                                     decoded_content[1], decoded_content[2], 
+                                                     decoded_content[3] 
+                                                    ]
+                    resCounter += 1   
+
+  time.sleep(1)  
+  return dictToRet                                            
