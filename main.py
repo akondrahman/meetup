@@ -43,8 +43,8 @@ def getMemberDetails(groupIDP, groupURLP):
     # let's get member info from each group: groupIDOfInterest, groupURLNameOfInterest     
     memberDict = fetcher.getMemberDetailsBasedOnGroup(groupIDP, groupURLP, apiStrForMember, apiKey) 
     print "Detailed member dict info: ", len(memberDict)          
-    #if (len(memberDict)>0): 
-    #  print "Dumping member details in file ... ... ...", utility.dumpDictinFile(memberDict, "MemberDetails_", "output")    
+    if (len(memberDict)>0): 
+      print "Dumping member details in file ... ... ...", utility.dumpDictinFile(memberDict, "MemberDetails_", "output")    
     return memberDict      
     
 
@@ -58,8 +58,8 @@ def getEventDetails(groupIDP, groupURLP):
                                              apiStrForEvent, 
                                              apiKey )
     print "Detailed event dict info: ", len(eventDict)      
-    #if (len(eventDict)>0): 
-    #  print "Dumping event details in file ... ... ...", utility.dumpDictinFile(eventDict, "EventDetails_", "output", "\t")     
+    if (len(eventDict)>0): 
+      print "Dumping event details in file ... ... ...", utility.dumpDictinFile(eventDict, "EventDetails_", "output", "\t")     
     return eventDict 
 
 
@@ -74,8 +74,8 @@ def getEventRatings(eventDictP):
                                              apiStrForEventRating, 
                                              apiKey )
       print "Event rating dict info: ", len(eventRatingDict)      
-      #if (len(eventRatingDict)>0): 
-      #  print "Dumping event rating details in file ... ... ...", utility.dumpDictinFile(eventRatingDict, "EventRatings_", "output")      
+      if (len(eventRatingDict)>0): 
+        print "Dumping event rating details in file ... ... ...", utility.dumpDictinFile(eventRatingDict, "EventRatings_", "output")      
       return eventRatingDict
 
 
@@ -91,8 +91,8 @@ def getEventComments(eventDictParam, groupIDParam):
                                                apiStrForEventComments, 
                                                apiKey )
       print "Event comment dict info: ", len( eventCommentDict )      
-      #if (len( eventCommentDict )>0): 
-      #  print "Dumping event comments in file ... ... ...", utility.dumpDictinFile(eventCommentDict, "EventComments_", "output")           
+      if (len( eventCommentDict )>0): 
+        print "Dumping event comments in file ... ... ...", utility.dumpDictinFile(eventCommentDict, "EventComments_", "output")           
       return eventCommentDict
 
 
