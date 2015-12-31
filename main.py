@@ -45,6 +45,8 @@ def getMemberDetails(groupIDP, groupURLP):
     print "Detailed member dict info: ", len(memberDict)          
     if (len(memberDict)>0): 
       print "Dumping member details in file ... ... ...", utility.dumpDictinFile(memberDict, "MemberDetails_", "output")    
+    else:
+      print "Wow ... no member for this group:", groupIDP  
     return memberDict      
     
 
@@ -59,7 +61,9 @@ def getEventDetails(groupIDP, groupURLP):
                                              apiKey )
     print "Detailed event dict info: ", len(eventDict)      
     if (len(eventDict)>0): 
-      print "Dumping event details in file ... ... ...", utility.dumpDictinFile(eventDict, "EventDetails_", "output", "\t")     
+      print "Dumping event details in file ... ... ...", utility.dumpDictinFile(eventDict, "EventDetails_", "output", "\t")
+    else:
+      print "Wow ... no event for this group:", groupIDP             
     return eventDict 
 
 
@@ -76,6 +80,8 @@ def getEventRatings(eventDictP):
       print "Event rating dict info: ", len(eventRatingDict)      
       if (len(eventRatingDict)>0): 
         print "Dumping event rating details in file ... ... ...", utility.dumpDictinFile(eventRatingDict, "EventRatings_", "output")      
+      else:
+        print "Wow ... no rating for this event:", eventID          
       return eventRatingDict
 
 
@@ -93,6 +99,8 @@ def getEventComments(eventDictParam, groupIDParam):
       print "Event comment dict info: ", len( eventCommentDict )      
       if (len( eventCommentDict )>0): 
         print "Dumping event comments in file ... ... ...", utility.dumpDictinFile(eventCommentDict, "EventComments_", "output")           
+      else:
+        print "Wow ... no comments for this event:", eventID          
       return eventCommentDict
 
 
