@@ -37,8 +37,8 @@ radius=10
 
 
 def getMemberDetails(groupIDP, groupURLP):
-  print "Executing 'getMemberDetails' "
-  with  utility.duration():    
+    print "Executing 'getMemberDetails' "
+  #with  utility.duration():    
     apiStrForMember="https://api.meetup.com/2/members"
     # let's get member info from each group: groupIDOfInterest, groupURLNameOfInterest     
     memberDict = fetcher.getMemberDetailsBasedOnGroup(groupIDP, groupURLP, apiStrForMember, apiKey) 
@@ -51,8 +51,8 @@ def getMemberDetails(groupIDP, groupURLP):
     
 
 def getEventDetails(groupIDP, groupURLP):
-  print "Executing 'getEventDetails' "    
-  with  utility.duration():        
+    print "Executing 'getEventDetails' "    
+  #with  utility.duration():        
     apiStrForEvent ="https://api.meetup.com/2/events"      
     ## lets get event details for the group 
     eventDict = fetcher.getEventBasedOnGroup(groupIDOfInterest, 
@@ -68,11 +68,12 @@ def getEventDetails(groupIDP, groupURLP):
 
 
 def getEventRatings(eventDictP):
+  eventRatingDict={}
   print "Executing 'getEventRatings' "    
-  with  utility.duration():        
-    apiStrForEventRating="https://api.meetup.com/2/event_ratings"
-    #### code for event rating 
-    for key_, val_ in eventDictP.items(): 
+  #with  utility.duration():        
+  apiStrForEventRating="https://api.meetup.com/2/event_ratings"
+  #### code for event rating 
+  for key_, val_ in eventDictP.items(): 
       eventID = key_   
       eventRatingDict = fetcher.getEventRating(eventID, 
                                              apiStrForEventRating, 
@@ -82,15 +83,15 @@ def getEventRatings(eventDictP):
         print "Dumping event rating details in file ... ... ...", utility.dumpDictinFile(eventRatingDict, "EventRatings_", "output")      
       else:
         print "Wow ... no rating for this event:", eventID          
-      return eventRatingDict
+  #return eventRatingDict
 
 
 def getEventComments(eventDictParam, groupIDParam):
   print "Executing 'getEventComments' "  
-  with  utility.duration():        
-    #### code for event comments 
-    apiStrForEventComments="https://api.meetup.com/2/event_comments"
-    for key_, val_ in eventDictParam.items(): 
+  #with  utility.duration():        
+  #### code for event comments 
+  apiStrForEventComments="https://api.meetup.com/2/event_comments"
+  for key_, val_ in eventDictParam.items(): 
       eventID = key_   
       eventCommentDict = fetcher.getEventComment(eventID,
                                                groupIDParam,                                                   
@@ -101,7 +102,27 @@ def getEventComments(eventDictParam, groupIDParam):
         print "Dumping event comments in file ... ... ...", utility.dumpDictinFile(eventCommentDict, "EventComments_", "output")           
       else:
         print "Wow ... no comments for this event:", eventID          
-      return eventCommentDict
+  #return eventCommentDict
+
+
+
+
+
+def getOtherDetailsOfMember(memDictParam):
+  print "Executing 'getOtherDetailsOfMember' "  
+  #with  utility.duration():        
+    #### code for other member details 
+  for key_, val_ in memDictParam.items(): 
+      memID = key_   
+      apiStrForMemDetails="https://api.meetup.com/members/" + memID      
+      otherMemDict = fetcher.getOtherMemberDetails(memID, apiStrForMemDetails, apiKey)
+      print "Other membership dict info: ", len( otherMemDict )      
+      if (len( otherMemDict )>0): 
+        print "Dumping other membership info in file ... ... ...", utility.dumpDictinFile(otherMemDict, "OtherMembership_", "output")           
+      else:
+        print "Wow ... no other membership for this member:", memID          
+  #return otherMemDict
+
 
 
 ###################### Real work ! ########################
@@ -116,19 +137,21 @@ groupDict={}
 with  utility.duration():
   groupDict = fetcher.getSpecificGroupInfo(categoryID, categoryName, country, zipParam, apiStrForCat, apiKey) 
   print "Group Dict info:", len(groupDict)
-for key_, val_ in groupDict.items():
-    print "Executing the four methods ...."  
+  for key_, val_ in groupDict.items():
+    print "Executing the five methods ...."  
     groupIDOfInterest = key_
     groupURLNameOfInterest = val_[-1]    
     #print "Calling method with: {}, {}".format(groupIDOfInterest, groupURLNameOfInterest)
     ##### Method-1
-    memDict   =  getMemberDetails(groupIDOfInterest, groupURLNameOfInterest)    
+    memDict          =  getMemberDetails(groupIDOfInterest, groupURLNameOfInterest)    
     ##### Method-2
-    eventDict =  getEventDetails(groupIDOfInterest, groupURLNameOfInterest)
+    #eventDict        =  getEventDetails(groupIDOfInterest, groupURLNameOfInterest)
     ##### Method-3
-    eventRatingDict = getEventRatings(eventDict)
+    #getEventRatings(eventDict)
     ##### Method-4
-    eventCommentDict = getEventComments(eventDict, groupIDOfInterest)
+    #getEventComments(eventDict, groupIDOfInterest)
+    ##### Method-5
+    getOtherDetailsOfMember(memDict)    
 
 
 

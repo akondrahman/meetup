@@ -1,0 +1,4104 @@
+
+User@User-PC MINGW64 ~ (master)
+$ cd C:
+
+User@User-PC MINGW64 /c
+$ cd ashfaque_stuff/meetup_work/
+
+User@User-PC MINGW64 /c/ashfaque_stuff/meetup_work (master)
+$ python main.py
+Run for getting all meetup events for a certain group
+Group Dict info: 183
+
+------------------------------------------------------------------------
+# Runtime: 47.436 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  0
+Wow ... no member for this group: 18552321
+
+------------------------------------------------------------------------
+# Runtime: 3.490 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18552321
+
+------------------------------------------------------------------------
+# Runtime: 3.502 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  390
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 10.571 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 7093252
+
+------------------------------------------------------------------------
+# Runtime: 3.471 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  33
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.623 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 5229062
+
+------------------------------------------------------------------------
+# Runtime: 3.465 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  63
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.037 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 17178122
+
+------------------------------------------------------------------------
+# Runtime: 4.793 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  446
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 13.422 secs
+Executing 'getEventDetails'
+Detailed event dict info:  50
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.763 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: tjnzclyvhbmc
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: tjnzclyvhbmc
+
+------------------------------------------------------------------------
+# Runtime: 3.662 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  35
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.430 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18187352
+
+------------------------------------------------------------------------
+# Runtime: 3.482 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  100
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.713 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 6943762
+
+------------------------------------------------------------------------
+# Runtime: 3.650 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  151
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.530 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 12002842
+
+------------------------------------------------------------------------
+# Runtime: 3.462 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  181
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.744 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18758171
+
+------------------------------------------------------------------------
+# Runtime: 3.468 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  166
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 5.694 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 13802012
+
+------------------------------------------------------------------------
+# Runtime: 3.480 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  33
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.730 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.540 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227411575
+
+------------------------------------------------------------------------
+# Runtime: 3.480 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227411575
+
+------------------------------------------------------------------------
+# Runtime: 3.642 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  302
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.173 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 8399392
+
+------------------------------------------------------------------------
+# Runtime: 3.793 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  0
+Wow ... no member for this group: 2902562
+
+------------------------------------------------------------------------
+# Runtime: 5.561 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 2902562
+
+------------------------------------------------------------------------
+# Runtime: 3.470 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  0
+Wow ... no member for this group: 18498599
+
+------------------------------------------------------------------------
+# Runtime: 3.520 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18498599
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  0
+Wow ... no member for this group: 4991532
+
+------------------------------------------------------------------------
+# Runtime: 4.271 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 4991532
+
+------------------------------------------------------------------------
+# Runtime: 3.515 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  19
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.542 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18748983
+
+------------------------------------------------------------------------
+# Runtime: 3.520 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  18
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.640 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 15260732
+
+------------------------------------------------------------------------
+# Runtime: 3.470 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  103
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.120 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 14777952
+
+------------------------------------------------------------------------
+# Runtime: 3.590 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  76
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.129 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1748546
+
+------------------------------------------------------------------------
+# Runtime: 3.511 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  606
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 16.839 secs
+Executing 'getEventDetails'
+Detailed event dict info:  151
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.660 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: kzjtglyvdbhc
+
+------------------------------------------------------------------------
+# Runtime: 4.282 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: kzjtglyvdbhc
+
+------------------------------------------------------------------------
+# Runtime: 4.013 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  294
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.112 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1759670
+
+------------------------------------------------------------------------
+# Runtime: 3.493 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  36
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.020 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 9554602
+
+------------------------------------------------------------------------
+# Runtime: 3.660 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  421
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 13.729 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1121002
+
+------------------------------------------------------------------------
+# Runtime: 4.768 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  102
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.282 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18717260
+
+------------------------------------------------------------------------
+# Runtime: 4.800 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  13
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.531 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 10942032
+
+------------------------------------------------------------------------
+# Runtime: 4.281 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  31
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.764 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.329 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227672435
+
+------------------------------------------------------------------------
+# Runtime: 3.453 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227672435
+
+------------------------------------------------------------------------
+# Runtime: 3.460 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  160
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.842 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1690553
+
+------------------------------------------------------------------------
+# Runtime: 4.761 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  132
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.250 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 11636312
+
+------------------------------------------------------------------------
+# Runtime: 3.561 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  83
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.071 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18456666
+
+------------------------------------------------------------------------
+# Runtime: 3.517 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  86
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.087 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18217055
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1677
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 36.692 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 458848
+
+------------------------------------------------------------------------
+# Runtime: 3.471 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1658
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 38.251 secs
+Executing 'getEventDetails'
+Detailed event dict info:  5
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227141616
+
+------------------------------------------------------------------------
+# Runtime: 3.490 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227141616
+
+------------------------------------------------------------------------
+# Runtime: 3.514 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  35
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.790 secs
+Executing 'getEventDetails'
+Detailed event dict info:  2
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.514 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227420826
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227420826
+
+------------------------------------------------------------------------
+# Runtime: 3.551 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  384
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 9.020 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 15347812
+
+------------------------------------------------------------------------
+# Runtime: 3.500 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  0
+Wow ... no member for this group: 16760422
+
+------------------------------------------------------------------------
+# Runtime: 3.595 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 16760422
+
+------------------------------------------------------------------------
+# Runtime: 3.477 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  233
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.646 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1487178
+
+------------------------------------------------------------------------
+# Runtime: 3.510 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  269
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.030 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.560 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227096246
+
+------------------------------------------------------------------------
+# Runtime: 3.464 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227096246
+
+------------------------------------------------------------------------
+# Runtime: 3.562 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  578
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.923 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1495149
+
+------------------------------------------------------------------------
+# Runtime: 3.650 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  49
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.860 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 19013985
+
+------------------------------------------------------------------------
+# Runtime: 3.601 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  141
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.622 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18519058
+
+------------------------------------------------------------------------
+# Runtime: 3.620 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  133
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.266 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.760 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227053044
+
+------------------------------------------------------------------------
+# Runtime: 3.810 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227053044
+
+------------------------------------------------------------------------
+# Runtime: 3.520 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  934
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 22.109 secs
+Executing 'getEventDetails'
+Detailed event dict info:  8
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.480 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227467500
+
+------------------------------------------------------------------------
+# Runtime: 3.531 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227467500
+
+------------------------------------------------------------------------
+# Runtime: 3.551 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  5
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18578047
+
+------------------------------------------------------------------------
+# Runtime: 3.490 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  121
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 5.683 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 16244352
+
+------------------------------------------------------------------------
+# Runtime: 3.524 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  199
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 5.051 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1746085
+
+------------------------------------------------------------------------
+# Runtime: 3.501 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  50
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.781 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 19049606
+
+------------------------------------------------------------------------
+# Runtime: 3.500 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  130
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.650 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 16193132
+
+------------------------------------------------------------------------
+# Runtime: 3.487 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  303
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.560 secs
+Executing 'getEventDetails'
+Detailed event dict info:  3
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227666071
+
+------------------------------------------------------------------------
+# Runtime: 3.471 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227666071
+
+------------------------------------------------------------------------
+# Runtime: 3.510 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1045
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 24.539 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1555085
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  0
+Wow ... no member for this group: 18560621
+
+------------------------------------------------------------------------
+# Runtime: 3.640 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18560621
+
+------------------------------------------------------------------------
+# Runtime: 3.510 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  23
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.640 secs
+Executing 'getEventDetails'
+Detailed event dict info:  12
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.521 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: btrcnlyvcbrb
+
+------------------------------------------------------------------------
+# Runtime: 3.494 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: btrcnlyvcbrb
+
+------------------------------------------------------------------------
+# Runtime: 3.498 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  51
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.875 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18919059
+
+------------------------------------------------------------------------
+# Runtime: 3.540 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  350
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.320 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1226388
+
+------------------------------------------------------------------------
+# Runtime: 3.502 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  593
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.373 secs
+Executing 'getEventDetails'
+Detailed event dict info:  12
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.594 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: ljphllyvgbxb
+
+------------------------------------------------------------------------
+# Runtime: 3.530 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: ljphllyvgbxb
+
+------------------------------------------------------------------------
+# Runtime: 3.540 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  95
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.091 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1698968
+
+------------------------------------------------------------------------
+# Runtime: 3.472 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  0
+Wow ... no member for this group: 1427908
+
+------------------------------------------------------------------------
+# Runtime: 3.480 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1427908
+
+------------------------------------------------------------------------
+# Runtime: 3.631 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  100
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.358 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 3107482
+
+------------------------------------------------------------------------
+# Runtime: 3.495 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  143
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.480 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18304668
+
+------------------------------------------------------------------------
+# Runtime: 3.501 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  90
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.308 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 3154592
+
+------------------------------------------------------------------------
+# Runtime: 3.500 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  132
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.450 secs
+Executing 'getEventDetails'
+Detailed event dict info:  25
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.553 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: blsdklyvlbdc
+
+------------------------------------------------------------------------
+# Runtime: 3.538 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: blsdklyvlbdc
+
+------------------------------------------------------------------------
+# Runtime: 3.487 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  798
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 17.131 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.530 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227393039
+
+------------------------------------------------------------------------
+# Runtime: 3.549 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227393039
+
+------------------------------------------------------------------------
+# Runtime: 3.567 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1617
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 35.122 secs
+Executing 'getEventDetails'
+Detailed event dict info:  6
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.541 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227350898
+
+------------------------------------------------------------------------
+# Runtime: 3.580 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227350898
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  178
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.840 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 13819572
+
+------------------------------------------------------------------------
+# Runtime: 3.482 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  131
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.333 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.558 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227316381
+
+------------------------------------------------------------------------
+# Runtime: 3.561 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227316381
+
+------------------------------------------------------------------------
+# Runtime: 3.545 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  69
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.130 secs
+Executing 'getEventDetails'
+Detailed event dict info:  36
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.620 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: xpdhhlyvgbdb
+
+------------------------------------------------------------------------
+# Runtime: 3.620 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: xpdhhlyvgbdb
+
+------------------------------------------------------------------------
+# Runtime: 3.461 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  158
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.700 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.424 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227345871
+
+------------------------------------------------------------------------
+# Runtime: 3.426 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227345871
+
+------------------------------------------------------------------------
+# Runtime: 3.484 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  28
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.650 secs
+Executing 'getEventDetails'
+Detailed event dict info:  46
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.440 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: wgbxklyvhbdb
+
+------------------------------------------------------------------------
+# Runtime: 3.500 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: wgbxklyvhbdb
+
+------------------------------------------------------------------------
+# Runtime: 3.471 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  100
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.150 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 6443722
+
+------------------------------------------------------------------------
+# Runtime: 3.462 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  69
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.068 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 14336842
+
+------------------------------------------------------------------------
+# Runtime: 3.530 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  418
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 11.383 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 14043682
+
+------------------------------------------------------------------------
+# Runtime: 3.470 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  153
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.292 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18262739
+
+------------------------------------------------------------------------
+# Runtime: 3.510 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  149
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.494 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 11197652
+
+------------------------------------------------------------------------
+# Runtime: 3.430 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  383
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.367 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1257174
+
+------------------------------------------------------------------------
+# Runtime: 3.400 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  403
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 11.431 secs
+Executing 'getEventDetails'
+Detailed event dict info:  5
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.594 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: rhhgnlyvdbmb
+
+------------------------------------------------------------------------
+# Runtime: 3.437 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: rhhgnlyvdbmb
+
+------------------------------------------------------------------------
+# Runtime: 3.444 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  306
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.035 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.411 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227317630
+
+------------------------------------------------------------------------
+# Runtime: 3.400 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227317630
+
+------------------------------------------------------------------------
+# Runtime: 3.460 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  50
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.080 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18670813
+
+------------------------------------------------------------------------
+# Runtime: 3.540 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  45
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.579 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18626274
+
+------------------------------------------------------------------------
+# Runtime: 3.493 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  709
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 15.488 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 13269222
+
+------------------------------------------------------------------------
+# Runtime: 3.460 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  51
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.678 secs
+Executing 'getEventDetails'
+Detailed event dict info:  12
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.466 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: qbrvthyvhbdb
+
+------------------------------------------------------------------------
+# Runtime: 3.430 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: qbrvthyvhbdb
+
+------------------------------------------------------------------------
+# Runtime: 3.455 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  230
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.520 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.480 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227500849
+
+------------------------------------------------------------------------
+# Runtime: 3.470 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227500849
+
+------------------------------------------------------------------------
+# Runtime: 3.411 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  717
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 15.947 secs
+Executing 'getEventDetails'
+Detailed event dict info:  40
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.520 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: wsckklyvlbcb
+
+------------------------------------------------------------------------
+# Runtime: 3.500 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: wsckklyvlbcb
+
+------------------------------------------------------------------------
+# Runtime: 3.471 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  221
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.520 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 4042992
+
+------------------------------------------------------------------------
+# Runtime: 3.408 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  544
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.109 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 14574322
+
+------------------------------------------------------------------------
+# Runtime: 3.400 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  643
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 15.575 secs
+Executing 'getEventDetails'
+Detailed event dict info:  12
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.487 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: kfzcklyvhbzb
+
+------------------------------------------------------------------------
+# Runtime: 3.438 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: kfzcklyvhbzb
+
+------------------------------------------------------------------------
+# Runtime: 3.431 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  756
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 15.955 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 7185652
+
+------------------------------------------------------------------------
+# Runtime: 3.545 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  358
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.573 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18552055
+
+------------------------------------------------------------------------
+# Runtime: 3.440 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  25
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.527 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 19075832
+
+------------------------------------------------------------------------
+# Runtime: 3.560 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  37
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.580 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 4976852
+
+------------------------------------------------------------------------
+# Runtime: 3.471 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  10
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.530 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 7916282
+
+------------------------------------------------------------------------
+# Runtime: 3.496 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  186
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.768 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 795899
+
+------------------------------------------------------------------------
+# Runtime: 3.450 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  268
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.969 secs
+Executing 'getEventDetails'
+Detailed event dict info:  48
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.461 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: cnckflyvqbcb
+
+------------------------------------------------------------------------
+# Runtime: 3.510 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: cnckflyvqbcb
+
+------------------------------------------------------------------------
+# Runtime: 3.410 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  192
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.642 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18653951
+
+------------------------------------------------------------------------
+# Runtime: 3.478 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  576
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.732 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 3793152
+
+------------------------------------------------------------------------
+# Runtime: 3.431 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  45
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.941 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 10261762
+
+------------------------------------------------------------------------
+# Runtime: 3.480 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  168
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.521 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 11699412
+
+------------------------------------------------------------------------
+# Runtime: 3.425 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  534
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.136 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 6571782
+
+------------------------------------------------------------------------
+# Runtime: 3.500 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  21
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.580 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18643723
+
+------------------------------------------------------------------------
+# Runtime: 3.421 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  788
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 16.824 secs
+Executing 'getEventDetails'
+Detailed event dict info:  148
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.652 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: kpddmlyvlbnc
+
+------------------------------------------------------------------------
+# Runtime: 3.403 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: kpddmlyvlbnc
+
+------------------------------------------------------------------------
+# Runtime: 3.440 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  10
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.450 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.440 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227592215
+
+------------------------------------------------------------------------
+# Runtime: 3.400 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227592215
+
+------------------------------------------------------------------------
+# Runtime: 3.459 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  149
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.382 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.472 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227116435
+
+------------------------------------------------------------------------
+# Runtime: 3.430 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227116435
+
+------------------------------------------------------------------------
+# Runtime: 3.417 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  536
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 11.560 secs
+Executing 'getEventDetails'
+Detailed event dict info:  3
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.558 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 224657130
+
+------------------------------------------------------------------------
+# Runtime: 3.430 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 224657130
+
+------------------------------------------------------------------------
+# Runtime: 3.423 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  126
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.100 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18470682
+
+------------------------------------------------------------------------
+# Runtime: 3.620 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  0
+Wow ... no member for this group: 18706720
+
+------------------------------------------------------------------------
+# Runtime: 3.428 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18706720
+
+------------------------------------------------------------------------
+# Runtime: 3.430 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  152
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.710 secs
+Executing 'getEventDetails'
+Detailed event dict info:  50
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.479 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: zvvkklyvkblb
+
+------------------------------------------------------------------------
+# Runtime: 3.475 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: zvvkklyvkblb
+
+------------------------------------------------------------------------
+# Runtime: 3.528 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  17
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.616 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18342691
+
+------------------------------------------------------------------------
+# Runtime: 3.480 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  260
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.748 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 2257701
+
+------------------------------------------------------------------------
+# Runtime: 3.410 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  197
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.752 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.528 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226724084
+
+------------------------------------------------------------------------
+# Runtime: 3.480 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226724084
+
+------------------------------------------------------------------------
+# Runtime: 3.420 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  214
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.457 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 10510632
+
+------------------------------------------------------------------------
+# Runtime: 3.478 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  112
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.251 secs
+Executing 'getEventDetails'
+Detailed event dict info:  2
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.520 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226005016
+
+------------------------------------------------------------------------
+# Runtime: 3.420 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226005016
+
+------------------------------------------------------------------------
+# Runtime: 3.541 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  99
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.987 secs
+Executing 'getEventDetails'
+Detailed event dict info:  2
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.478 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227487355
+
+------------------------------------------------------------------------
+# Runtime: 3.470 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227487355
+
+------------------------------------------------------------------------
+# Runtime: 3.410 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  142
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.185 secs
+Executing 'getEventDetails'
+Detailed event dict info:  3
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.820 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227189198
+
+------------------------------------------------------------------------
+# Runtime: 3.500 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227189198
+
+------------------------------------------------------------------------
+# Runtime: 3.515 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  849
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 20.465 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226417808
+
+------------------------------------------------------------------------
+# Runtime: 3.560 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226417808
+
+------------------------------------------------------------------------
+# Runtime: 3.510 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  70
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.062 secs
+Executing 'getEventDetails'
+Detailed event dict info:  2
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.569 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226396633
+
+------------------------------------------------------------------------
+# Runtime: 3.519 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226396633
+
+------------------------------------------------------------------------
+# Runtime: 3.520 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  392
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 9.109 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1664823
+
+------------------------------------------------------------------------
+# Runtime: 3.620 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  95
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.233 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 15926072
+
+------------------------------------------------------------------------
+# Runtime: 3.562 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  346
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.438 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 2600762
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  154
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.610 secs
+Executing 'getEventDetails'
+Detailed event dict info:  14
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.533 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: hdfgnlyvgbjb
+
+------------------------------------------------------------------------
+# Runtime: 3.601 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: hdfgnlyvgbjb
+
+------------------------------------------------------------------------
+# Runtime: 3.561 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  377
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.173 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 16226272
+
+------------------------------------------------------------------------
+# Runtime: 3.621 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  77
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.111 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.580 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227482645
+
+------------------------------------------------------------------------
+# Runtime: 3.591 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227482645
+
+------------------------------------------------------------------------
+# Runtime: 3.547 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  158
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.910 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18912067
+
+------------------------------------------------------------------------
+# Runtime: 3.526 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  620
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 15.075 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1691972
+
+------------------------------------------------------------------------
+# Runtime: 3.552 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  172
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.539 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.611 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227323409
+
+------------------------------------------------------------------------
+# Runtime: 3.540 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227323409
+
+------------------------------------------------------------------------
+# Runtime: 3.585 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  618
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 15.454 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1597259
+
+------------------------------------------------------------------------
+# Runtime: 3.540 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  73
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.182 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.610 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227677500
+
+------------------------------------------------------------------------
+# Runtime: 3.613 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227677500
+
+------------------------------------------------------------------------
+# Runtime: 3.549 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  261
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.182 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 16184142
+
+------------------------------------------------------------------------
+# Runtime: 3.640 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  59
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.050 secs
+Executing 'getEventDetails'
+Detailed event dict info:  2
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.544 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226983717
+
+------------------------------------------------------------------------
+# Runtime: 3.580 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226983717
+
+------------------------------------------------------------------------
+# Runtime: 3.581 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1692
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 37.020 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1546066
+
+------------------------------------------------------------------------
+# Runtime: 3.580 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  298
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.897 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18236248
+
+------------------------------------------------------------------------
+# Runtime: 3.610 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  443
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.173 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 4073312
+
+------------------------------------------------------------------------
+# Runtime: 3.546 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  227
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.755 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 12154512
+
+------------------------------------------------------------------------
+# Runtime: 3.730 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  116
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.520 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 11021542
+
+------------------------------------------------------------------------
+# Runtime: 3.553 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  229
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.978 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 2609212
+
+------------------------------------------------------------------------
+# Runtime: 3.689 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  108
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.244 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 12839802
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  220
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.501 secs
+Executing 'getEventDetails'
+Detailed event dict info:  13
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.570 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: qtrnmlyvfbnc
+
+------------------------------------------------------------------------
+# Runtime: 3.560 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: qtrnmlyvfbnc
+
+------------------------------------------------------------------------
+# Runtime: 3.566 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1493
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 33.109 secs
+Executing 'getEventDetails'
+Detailed event dict info:  12
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.810 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226910713
+
+------------------------------------------------------------------------
+# Runtime: 3.558 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226910713
+
+------------------------------------------------------------------------
+# Runtime: 3.618 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  21
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.701 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18317696
+
+------------------------------------------------------------------------
+# Runtime: 3.560 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  99
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.370 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18568080
+
+------------------------------------------------------------------------
+# Runtime: 3.530 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  83
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.210 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.659 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227594117
+
+------------------------------------------------------------------------
+# Runtime: 3.574 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227594117
+
+------------------------------------------------------------------------
+# Runtime: 3.647 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  252
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.000 secs
+Executing 'getEventDetails'
+Detailed event dict info:  2
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226934261
+
+------------------------------------------------------------------------
+# Runtime: 3.580 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226934261
+
+------------------------------------------------------------------------
+# Runtime: 3.571 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  197
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.633 secs
+Executing 'getEventDetails'
+Detailed event dict info:  16
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.700 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: dprrdkyvkbzb
+
+------------------------------------------------------------------------
+# Runtime: 3.531 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: dprrdkyvkbzb
+
+------------------------------------------------------------------------
+# Runtime: 3.559 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  189
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.705 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 841103
+
+------------------------------------------------------------------------
+# Runtime: 3.650 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  249
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.834 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 12048272
+
+------------------------------------------------------------------------
+# Runtime: 3.670 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  522
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.275 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 13657492
+
+------------------------------------------------------------------------
+# Runtime: 3.630 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  38
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.787 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18571160
+
+------------------------------------------------------------------------
+# Runtime: 3.552 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  51
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.090 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 4245402
+
+------------------------------------------------------------------------
+# Runtime: 3.610 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  470
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 11.996 secs
+Executing 'getEventDetails'
+Detailed event dict info:  36
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.597 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: qksbsfyvdbpb
+
+------------------------------------------------------------------------
+# Runtime: 3.559 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: qksbsfyvdbpb
+
+------------------------------------------------------------------------
+# Runtime: 3.620 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  82
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.221 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 10884762
+
+------------------------------------------------------------------------
+# Runtime: 3.570 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  41
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.010 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18698480
+
+------------------------------------------------------------------------
+# Runtime: 3.575 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  98
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.362 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18310565
+
+------------------------------------------------------------------------
+# Runtime: 3.577 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  624
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 15.629 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 12831142
+
+------------------------------------------------------------------------
+# Runtime: 3.610 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  44
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.761 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18641308
+
+------------------------------------------------------------------------
+# Runtime: 3.607 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1236
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 28.156 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.588 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227678216
+
+------------------------------------------------------------------------
+# Runtime: 3.571 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227678216
+
+------------------------------------------------------------------------
+# Runtime: 3.633 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1314
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 29.190 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.555 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227613025
+
+------------------------------------------------------------------------
+# Runtime: 3.577 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227613025
+
+------------------------------------------------------------------------
+# Runtime: 3.621 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  327
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.510 secs
+Executing 'getEventDetails'
+Detailed event dict info:  182
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.061 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: ndpxhlyvqbcc
+
+------------------------------------------------------------------------
+# Runtime: 3.530 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: ndpxhlyvqbcc
+
+------------------------------------------------------------------------
+# Runtime: 3.606 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  827
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 20.763 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.560 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226568051
+
+------------------------------------------------------------------------
+# Runtime: 3.591 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226568051
+
+------------------------------------------------------------------------
+# Runtime: 3.584 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  694
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 16.027 secs
+Executing 'getEventDetails'
+Detailed event dict info:  64
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.702 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: sphdnlyvfblb
+
+------------------------------------------------------------------------
+# Runtime: 3.551 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: sphdnlyvfblb
+
+------------------------------------------------------------------------
+# Runtime: 3.590 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  850
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 19.379 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 6706102
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  600
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 18.609 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 1605047
+
+------------------------------------------------------------------------
+# Runtime: 3.576 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  53
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.087 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18505204
+
+------------------------------------------------------------------------
+# Runtime: 3.575 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  24
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.710 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18256828
+
+------------------------------------------------------------------------
+# Runtime: 3.650 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  12
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.630 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18886077
+
+------------------------------------------------------------------------
+# Runtime: 3.540 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  274
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.198 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.631 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227683125
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227683125
+
+------------------------------------------------------------------------
+# Runtime: 3.537 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  756
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 16.556 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 13827012
+
+------------------------------------------------------------------------
+# Runtime: 3.956 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  494
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.163 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.700 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227140786
+
+------------------------------------------------------------------------
+# Runtime: 3.620 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227140786
+
+------------------------------------------------------------------------
+# Runtime: 3.541 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  81
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.178 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.620 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 226995895
+
+------------------------------------------------------------------------
+# Runtime: 3.536 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 226995895
+
+------------------------------------------------------------------------
+# Runtime: 3.576 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  122
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.202 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18444234
+
+------------------------------------------------------------------------
+# Runtime: 3.720 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  10
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.641 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18870731
+
+------------------------------------------------------------------------
+# Runtime: 5.031 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  363
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.363 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 17037262
+
+------------------------------------------------------------------------
+# Runtime: 3.614 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1536
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 34.384 secs
+Executing 'getEventDetails'
+Detailed event dict info:  12
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: kqgqqyvlbmb
+
+------------------------------------------------------------------------
+# Runtime: 3.565 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: kqgqqyvlbmb
+
+------------------------------------------------------------------------
+# Runtime: 3.530 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  32
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.720 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 3361232
+
+------------------------------------------------------------------------
+# Runtime: 3.586 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  254
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 7.830 secs
+Executing 'getEventDetails'
+Detailed event dict info:  62
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.601 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: qhtfmgyvjbdb
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: qhtfmgyvjbdb
+
+------------------------------------------------------------------------
+# Runtime: 3.552 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  103
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.718 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 18447320
+
+------------------------------------------------------------------------
+# Runtime: 3.610 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  176
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 5.038 secs
+Executing 'getEventDetails'
+Detailed event dict info:  26
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.650 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: qzxkrgyvpbfc
+
+------------------------------------------------------------------------
+# Runtime: 3.551 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: qzxkrgyvpbfc
+
+------------------------------------------------------------------------
+# Runtime: 3.560 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  107
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.281 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 12478202
+
+------------------------------------------------------------------------
+# Runtime: 3.549 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  72
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.236 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 10354142
+
+------------------------------------------------------------------------
+# Runtime: 3.673 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  1299
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 27.387 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 2331301
+
+------------------------------------------------------------------------
+# Runtime: 3.582 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  59
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.251 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 2686432
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  159
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.591 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 7892962
+
+------------------------------------------------------------------------
+# Runtime: 3.610 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  497
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 11.814 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 9387042
+
+------------------------------------------------------------------------
+# Runtime: 3.673 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  135
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.372 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.602 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227164765
+
+------------------------------------------------------------------------
+# Runtime: 3.600 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227164765
+
+------------------------------------------------------------------------
+# Runtime: 3.610 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  317
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 8.361 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 16126452
+
+------------------------------------------------------------------------
+# Runtime: 3.550 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  479
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 12.046 secs
+Executing 'getEventDetails'
+Detailed event dict info:  1
+Dumping event details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 3.730 secs
+Executing 'getEventRatings'
+Event rating dict info:  0
+Wow ... no rating for this event: 227540726
+
+------------------------------------------------------------------------
+# Runtime: 3.521 secs
+Executing 'getEventComments'
+Event comment dict info:  0
+Wow ... no comments for this event: 227540726
+
+------------------------------------------------------------------------
+# Runtime: 3.780 secs
+Executing the four methods ....
+Executing 'getMemberDetails'
+Detailed member dict info:  64
+Dumping member details in file ... ... ... Done ... D-U-M-P-I-N-G!
+
+------------------------------------------------------------------------
+# Runtime: 4.030 secs
+Executing 'getEventDetails'
+Detailed event dict info:  0
+Wow ... no event for this group: 19220477
+
+------------------------------------------------------------------------
+# Runtime: 3.610 secs
+Executing 'getEventRatings'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+Executing 'getEventComments'
+
+------------------------------------------------------------------------
+# Runtime: 0.000 secs
+
+User@User-PC MINGW64 /c/ashfaque_stuff/meetup_work (master)
+$

@@ -70,7 +70,11 @@ def get_results(params):
 def execQuery(queryParam, apiParam):
   import requests   
   requestHolder = requests.get(apiParam,params=queryParam)
-  valToRet = requestHolder.json()
+  try:
+    valToRet = requestHolder.json()
+  except:
+    valToRet = {"Nothing":True}
+  
   return valToRet  
 
             
@@ -465,4 +469,109 @@ def getEventComment(groupIDP, eventIDP, apiStrForEventP, apiKeyP ):
                     resCounter += 1   
 
   time.sleep(1)  
-  return dictToRet                                            
+  return dictToRet 
+
+def getOtherMemberDetails(memberIDparam, apiStrForMemDetails, apiKey): 
+  #https://api.meetup.com/members/75354472?&sign=true&photo-host=public&page=20
+  import sys
+  reload(sys)
+  sys.setdefaultencoding("utf-8")
+
+  UTF8Writer = codecs.getwriter('utf8')
+  sys.stdout = UTF8Writer(sys.stdout)  
+  per_page = 200
+  results_we_got = per_page
+  offset = 0
+  resCounter =  1
+  typeStr, memGroup, memRole, memStatus, membershipString    = '', '', '', '', ''
+  joinedStr, genderStr, numGroupStr, numRSVPStr, numTopicStr = '', '', '', '', ''
+  ## the final dictionary 
+  dictToRet={}
+  while (results_we_got == per_page):
+                response=execQuery({"sign":"true", "photo-host":"public",  
+                                    "key":apiKey, "page":per_page, "offset":offset }, apiStrForMemDetails)
+
+                time.sleep(1)
+                offset += 1
+                if 'meta' in response:
+                  results_we_got = response['meta']['count']
+                else: 
+                  results_we_got = 0 
+                
+                #for memItem in response['results']:
+                memItem = response 
+                #for memItem in response:                
+                if 'memberships' in memItem:
+                      if 'member' in memItem['memberships']:
+                        typeStr = 'member'
+                      elif 'organizer' in memItem['memberships']:
+                        typeStr = 'organizer'
+                      else:
+                        typeStr = 'UNKNOWN'    
+                      if 'group' in memItem['memberships'][typeStr]: 
+                           memGroup =  memItem['memberships'][typeStr]['group']
+                      else: 
+                           memGroup = "NOT_GIVEN"     
+                      if 'role' in memItem['memberships']['member']:  
+                           memRole =  memItem['memberships'][typeStr]['role']
+                      else: 
+                           memRole = "NOT_GIVEN"                                                          
+                      if 'status' in memItem['memberships'][typeStr]:          
+                           memStatus =  memItem['memberships'][typeStr]['status']
+                      else: 
+                           memStatus = "NOT_GIVEN"
+                      typeStr=''                                                                                                       
+                else:
+                    membershipString ="Unknown"  
+                if 'membership_count' in memItem: 
+                      memCountStr=memItem['membership_count'] 
+                else:
+                      memCountStr='0'                       
+                if 'joined' in memItem: 
+                      joinedStr=memItem['joined'] 
+                else:
+                      joinedStr='NOT_GIVEN'   
+                if 'gender' in memItem: 
+                      genderStr=memItem['gender'] 
+                else:
+                      genderStr='UNKNOWN'
+                if 'stats' in memItem: 
+                      if 'groups' in memItem['stats']:
+                        numGroupStr=memItem['stats']['groups'] 
+                      else:
+                        numGroupStr = str(0)  
+                      if 'rsvps' in memItem['rsvps']:
+                        numRSVPStr=memItem['stats']['rsvps'] 
+                      else:
+                        numRSVPStr = str(0)                           
+                      if 'topics' in memItem['topics']:
+                        numTopicStr=memItem['stats']['topics']
+                      else:
+                        numTopicStr = str(0)                                                                           
+                else:
+                      numGroupStr = str(0) 
+                      numRSVPStr  = str(0)
+                      numTopicStr = str(0)                                               
+                content = map(unicode, [
+                                             memberIDparam, membershipString , 
+                                             typeStr, memGroup, memRole, 
+                                             memStatus, joinedStr, genderStr, 
+                                             numGroupStr, numRSVPStr, numTopicStr, 
+                                             memCountStr                                                
+                                           ]
+                                 )
+                    
+                decoded_content = [x.decode('utf-8').strip() for x in content]                  
+                    #print "\t" .join(decoded_content)
+                dictToRet[decoded_content[0]] = [
+                                                     decoded_content[1], decoded_content[2], 
+                                                     decoded_content[3], decoded_content[4], 
+                                                     decoded_content[5], decoded_content[6], 
+                                                     decoded_content[7], decoded_content[8], 
+                                                     decoded_content[9], decoded_content[10], 
+                                                     decoded_content[11]  
+                                                    ]
+                resCounter += 1   
+
+  time.sleep(1)  
+  return dictToRet                                                  
